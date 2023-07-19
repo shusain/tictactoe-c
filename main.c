@@ -121,6 +121,7 @@ bool checkGameEnd(char board[3][3]){
         printf("Computer has won the game.  Better luck next time.\n");
     } else if(oWon) {
         printf("You have won the game!!\n");
+        exit(0);
     }
 
     if(totalHits == 9) {
