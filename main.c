@@ -119,6 +119,7 @@ bool checkGameEnd(char board[3][3]){
     }
     if(xWon) {
         printf("Computer has won the game.  Better luck next time.\n");
+        exit(0);
     } else if(oWon) {
         printf("You have won the game!!\n");
         exit(0);
